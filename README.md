@@ -1,4 +1,4 @@
-GLOBYCOIN
+NEEDYCOIN
 
 Web : https://needycoin.org
 
