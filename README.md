@@ -1,28 +1,16 @@
 NEEDYCOIN
 
-Web : https://needycoin.org
-
-explorer : https://needycoinexplorer.com
-
-telegram : https://t.me/needycoin
-
-bitcointalk :  https://bitcointalk.org/index.php?topic=4623795.0
-
+website : https://needycoin.org
+exchange : https://needyex.com
+blog : https://blog.needycoin.org
+reddit : https://reddit.com/user/Needycoin
+youtube : https://youtube.com/channel/UC_EPmakV4OqTOFvBb3r9zcQ
 twitter : https://twitter.com/needycoin
-
-discord : https://discord.gg/bE5yubp
-
-facebook : https://www.facebook.com/Needycoin
-
-youtube : https://www.youtube.com/channel/UC8DWGsoPW6LiCDxFrEzydsQ
-
-reddit : https://www.reddit.com/user/Needycoin
-
-github : https://github.com/Needycoin/nedcore
-
-email : info@needycoin.org
-
-steemit : https://steemit.com/@needycoin
-
-whitepaper : https://www.needycoin.org/whitepaper/whitepaper.pdf
+telegram : https://t.me/needycoin and t.me/needyex
+discord:  https://discord.gg/zbXMufS
+explorer : https://needyexplorer.icu
+bitcointalk : https://bitcointalk.org/index.php?topic=5192719
+whitepaper : https://needycoin.org/wp/needycoin-wp-en.pdf
+facebook : https://facebook.com/needycoin
+email : hello@needycoin.org
 
