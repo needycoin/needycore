@@ -134,6 +134,9 @@
         <layout class="QHBoxLayout" name="horizontalLayout_3">
          <item>
           <widget class="QLabel" name="percentage_label">
+	<property name="visible">
+	<bool>false</bool>
+	</property>
            <property name="toolTip">
             <string>Percentage of incoming ned which get automatically converted to zned via Zerocoin Protocol (min: 10%)</string>
            </property>
@@ -144,6 +147,9 @@
          </item>
          <item>
           <widget class="QSpinBox" name="zeromintPercentage">
+	<property name="visible">
+	<bool>false</bool>
+	</property>
            <property name="minimum">
             <number>10</number>
            </property>
@@ -161,6 +167,9 @@
          </property>
          <item>
           <widget class="QLabel" name="labelPreferredDenom">
+	<property name="visible">
+	<bool>false</bool>
+	</property>
            <property name="maximumSize">
             <size>
              <width>16777215</width>
@@ -177,6 +186,9 @@
          </item>
          <item>
           <widget class="QComboBox" name="preferredDenom">
+	<property name="visible">
+	<bool>false</bool>
+	</property>
            <property name="maximumSize">
             <size>
              <width>16777215</width>
