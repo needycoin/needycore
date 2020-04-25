@@ -1,0 +1,26 @@
+[Unit]
+Description=Needycoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=needycoin
+Group=needycoin
+
+Type=forking
+PIDFile=/var/lib/needycoind/needycoind.pid
+
+ExecStart=/usr/bin/needycoind -daemon -pid=/var/lib/needycoind/needycoind.pid \
+          -conf=/etc/needycoin/needycoin.conf -datadir=/var/lib/needycoind
+
+ExecStop=-/usr/bin/needycoin-cli -conf=/etc/needycoin/needycoin.conf \
+         -datadir=/var/lib/needycoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

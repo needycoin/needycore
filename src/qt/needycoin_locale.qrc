@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/needycoin_bg.qm</file>
+        <file alias="ca">locale/needycoin_ca.qm</file>
+        <file alias="cs">locale/needycoin_cs.qm</file>
+        <file alias="da">locale/needycoin_da.qm</file>
+        <file alias="de">locale/needycoin_de.qm</file>
+        <file alias="en">locale/needycoin_en.qm</file>
+        <file alias="en_US">locale/needycoin_en_US.qm</file>
+        <file alias="es">locale/needycoin_es.qm</file>
+        <file alias="fi">locale/needycoin_fi.qm</file>
+        <file alias="fr_FR">locale/needycoin_fr_FR.qm</file>
+        <file alias="hr">locale/needycoin_hr.qm</file>
+        <file alias="it">locale/needycoin_it.qm</file>
+        <file alias="ja">locale/needycoin_ja.qm</file>
+        <file alias="ko_KR">locale/needycoin_ko_KR.qm</file>
+        <file alias="nl">locale/needycoin_nl.qm</file>
+        <file alias="pl">locale/needycoin_pl.qm</file>
+        <file alias="pt">locale/needycoin_pt.qm</file>
+        <file alias="pt_BR">locale/needycoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/needycoin_ro_RO.qm</file>
+        <file alias="ru">locale/needycoin_ru.qm</file>
+        <file alias="sk">locale/needycoin_sk.qm</file>
+        <file alias="sv">locale/needycoin_sv.qm</file>
+        <file alias="tr">locale/needycoin_tr.qm</file>
+        <file alias="uk">locale/needycoin_uk.qm</file>
+        <file alias="zh_CN">locale/needycoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/needycoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

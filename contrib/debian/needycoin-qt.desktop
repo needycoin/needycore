@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Needycoin
+Comment=Needycoin P2P Cryptocurrency
+Comment[fr]=Needycoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Needycoin, eşten eşe kriptografik sanal para birimi
+Exec=needycoin-qt %u
+Terminal=false
+Type=Application
+Icon=needycoin128
+MimeType=x-scheme-handler/needycoin;
+Categories=Office;Finance;

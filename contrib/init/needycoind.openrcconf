@@ -1,0 +1,26 @@
+# /etc/conf.d/needycoind: config file for /etc/init.d/needycoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/needycoin/needycoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/needycoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/needycoind.pid"
+
+# Where to write needycoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/needycoind"
+
+# User and group to own needycoind process
+#BITCOIND_USER="needycoin"
+#BITCOIND_GROUP="needycoin"
+
+# Path to needycoind executable
+#BITCOIND_BIN="/usr/bin/needycoind"
+
+# Nice value to run needycoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
