@@ -336,9 +336,9 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     privacyAction->setToolTip(privacyAction->statusTip());
     privacyAction->setCheckable(true);
 #ifdef Q_OS_MAC
-    privacyAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_5));
+    //privacyAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_5));
 #else
-    privacyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
+   // privacyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
 #endif
     tabGroup->addAction(privacyAction);
 
@@ -697,7 +697,7 @@ void BitcoinGUI::createTrayIconMenu()
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(sendCoinsAction);
     trayIconMenu->addAction(receiveCoinsAction);
-    trayIconMenu->addAction(privacyAction);
+    //trayIconMenu->addAction(privacyAction);
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(signMessageAction);
     trayIconMenu->addAction(verifyMessageAction);
