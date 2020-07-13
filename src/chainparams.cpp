@@ -54,9 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (     0, uint256("0x0000d330cd592f6758cbdc0d26654835f459596b7f756bc8cb32c009a51eb573"))
-    (     1800, uint256("0x293561596f328cd2fa3bc6270b91f2c7f0744fedb9b03b33a213c3e6ba23d58e"))
-    (     34000, uint256("0x991da76def35508eace35c40c545ad034eabcd5aa80495b7cbc7622532d35a14"))
+    (     0, uint256("0x0000789fbbcdee1be513500f6410f19906f214a47d9900f3f6f541f973c06d9d"))
 ;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -121,7 +119,7 @@ public:
         nTargetSpacing = 1 * 60;  
         nMaturity = 6;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 200000000 * COIN;
+        nMaxMoneyOut = 50000000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 100;
@@ -145,16 +143,18 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1587715043;
+        genesis.nTime = 1594653867;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 0x158b9;
+        genesis.nNonce = 0xb9fc;
+
+
 
 
         hashGenesisBlock = genesis.GetHash();
 
 
 
-        assert(hashGenesisBlock == uint256("0x0000d330cd592f6758cbdc0d26654835f459596b7f756bc8cb32c009a51eb573"));
+        assert(hashGenesisBlock == uint256("0x0000789fbbcdee1be513500f6410f19906f214a47d9900f3f6f541f973c06d9d"));
         assert(genesis.hashMerkleRoot == uint256("0x761d69e02cf216039d548441c45bf3a07067921a33781a6356839b302a9b7b6e"));
 
         vSeeds.push_back(CDNSSeedData("seed1.needycoin.org", "seed1.needycoin.org"));
@@ -162,7 +162,7 @@ public:
         vSeeds.push_back(CDNSSeedData("seed3.needycoin.org", "seed3.needycoin.org"));
 
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 0);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 53);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 3);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
